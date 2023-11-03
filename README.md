@@ -21,7 +21,7 @@ cd samtools-1.9
 make
 ```
 
-### Example
+### Example (Run Mapping)
 FastQ_R1: CCARE_SA_075No_S17_R1_001.fastq.gz
 FastQ_R2: CCARE_SA_075No_S17_R2_001.fastq.gz
 
