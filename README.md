@@ -1,5 +1,7 @@
 # FastQ_to_Bam
 
+To switch from fastQ (R1 & R2) to a BAM, you need to do the mapping with BWA and create the bam with Samtools.
+To do this, you need the reference genome (Here: Homo_sapiens.GRCh38.ensembl_91.dna.primary_assembly.fa).
 
 ### Installation
 
