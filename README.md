@@ -31,7 +31,7 @@ bwa mem -K 100000000 -v 3 -t 4 Homo_sapiens_ensembl38/Homo_sapiens.GRCh38.ensemb
 ```
 
 ### To run multiple files you can use nextflow script
-# First Install Nextflow: https://www.nextflow.io/docs/latest/getstarted.html
+First Install Nextflow: https://www.nextflow.io/docs/latest/getstarted.html
 ```
 curl get.nextflow.io | bash
 sudo mv nextflow /usr/local/bin
