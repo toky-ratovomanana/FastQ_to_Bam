@@ -11,6 +11,15 @@ sudo apt-get update
 sudo apt-get -y install bwa
 ```
 
+Install Samtools: http://www.sthda.com/english/wiki/install-samtools-on-unix-system
+```
+cd ..
+wget https://github.com/samtools/samtools/releases/download/1.9/samtools-1.9.tar.bz2
+tar -vxjf samtools-1.9.tar.bz2
+cd samtools-1.9
+make
+```
+
 ### Example
 FastQ_R1: CCARE_SA_075No_S17_R1_001.fastq.gz
 FastQ_R2: CCARE_SA_075No_S17_R2_001.fastq.gz
