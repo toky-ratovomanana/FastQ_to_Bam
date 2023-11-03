@@ -11,7 +11,7 @@ sudo apt-get update
 sudo apt-get -y install bwa
 ```
 
-Install Samtools: http://www.sthda.com/english/wiki/install-samtools-on-unix-system
+Install Samtools: https://www.htslib.org/download/
 ```
 cd ..
 wget https://github.com/samtools/samtools/releases/download/1.9/samtools-1.9.tar.bz2
