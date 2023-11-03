@@ -22,8 +22,8 @@ make
 ```
 
 ### Example (Run Mapping)
-> FastQ_R1: CCARE_SA_075No_S17_R1_001.fastq.gz
-> FastQ_R2: CCARE_SA_075No_S17_R2_001.fastq.gz
+- FastQ_R1: CCARE_SA_075No_S17_R1_001.fastq.gz
+- FastQ_R2: CCARE_SA_075No_S17_R2_001.fastq.gz
 
 Name of Bam output: CCARE_SA_075No_S17.bam
 ```
