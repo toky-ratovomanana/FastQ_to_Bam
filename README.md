@@ -38,9 +38,9 @@ sudo mv nextflow /usr/local/bin
 nextflow self-update
 ```
 #To run the nextflow script (wes_map_sort_option_trim.nf)
---inputDir containg the fastq filles (R1 & R2)
---outDir directory created for output
---refGenome Directory with the all the reference genome file (here 44Go)
+* --inputDir containg the fastq filles (R1 & R2)
+* --outDir directory created for output
+* --refGenome Directory with the all the reference genome file (here 44Go)
 
 ```
 NXF_VER=22.04.5 nextflow run wes_map_sort_option_trim.nf --inputDir ~/Documents/07_MSInsight/05_Work/11_Hokla/02_Dev-Frontend_Backend/fastQ_to_Bam/Fastq_batch_1 --outDir ~/Documents/07_MSInsight/05_Work/11_Hokla/02_Dev-Frontend_Backend/fastQ_to_Bam/Mapping_ensembl_38 --refGenome ~/Documents/07_MSInsight/05_Work/11_Hokla/02_Dev-Frontend_Backend/fastQ_to_Bam/Homo_sapiens_ensembl38/Homo_sapiens.GRCh38.ensembl_91.dna.primary_assembly.fa --trim F
