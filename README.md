@@ -12,7 +12,7 @@ sudo apt-get -y install bwa
 ```
 
 Install Samtools: https://www.htslib.org/download/
-Tester sur mon PC avec Version: 1.10 (using htslib 1.10.2-3ubuntu0.1)
+> Tester sur mon PC avec Version: 1.10 (using htslib 1.10.2-3ubuntu0.1)
 ```
 cd ..
 wget https://github.com/samtools/samtools/releases/download/1.9/samtools-1.9.tar.bz2
